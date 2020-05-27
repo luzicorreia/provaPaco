@@ -1,9 +1,44 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 header{
     background-color: #F3A683;
     text-align: center;
-    padding: 20px;
-    position: fixed;
+    padding: 60px 0;
     width: 100%;
-    top: 0%;
-    left: 0%;
+/*  position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 1;
+/*este comando fixa o header em segundo plano para 'rodar' o restante da aplicaçao 
+ */
+
 }
+
+nav{
+    background-color: #F19066;
+    padding: 20px;
+    position: sticky;
+    top: 208px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+
