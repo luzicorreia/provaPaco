@@ -22,7 +22,7 @@ nav{
     background-color: #F19066;
     padding: 20px;
     position: sticky;
-    top: 208px;
+    top: 157px;
 }
 
 nav ul{
@@ -40,5 +40,29 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #000000;
+
+} 
+section.intro{
+    background: #ECECEC;
+    padding: 20px 25px;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+section.intro h2{
+font-size: 20px;
 }
 
+section.intro p{
+    font-size: 12px;
+}
+section.dica1{
+
+}
+footer{
+    background-color: #596275;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
