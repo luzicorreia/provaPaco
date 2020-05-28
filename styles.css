@@ -56,9 +56,32 @@ font-size: 20px;
 section.intro p{
     font-size: 12px;
 }
-section.dica1{
 
+article.dica1{
+    background: #F5CD79;
+    padding: 20px;
+    margin: 0 auto;
 }
+
+article.dica2{
+    background: #F5CD79;
+    padding: 20px;
+    margin: 0 auto;
+}
+article.dica3{
+    background: #F5CD79;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+article h2{
+        font-size: 20px;
+}
+
+article p{
+    font-size: 12px;
+}   
+
 footer{
     background-color: #596275;
     padding: 5px;
