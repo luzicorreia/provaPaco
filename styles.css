@@ -1,7 +1,12 @@
-body, ul, li, h1, h2, a{
+/*body, ul, li, h1, h2, a{}*/
+  body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+body{
+    background-color: #f7d79480;
 }
 
 header{
@@ -23,7 +28,7 @@ nav{
     padding: 20px;
     position: sticky;
     top: 157px;
-}
+    }
 
 nav ul{
     white-space: nowrap;
@@ -36,6 +41,8 @@ nav li{
     width: 30%;
     display: inline-block;
     font-size: 30px;
+    text-decoration: underline;
+
 }
 nav li a{
     text-decoration: none;
@@ -44,7 +51,7 @@ nav li a{
 } 
 section.intro{
     background: #ECECEC;
-    padding: 20px 25px;
+    padding: 50px 25px;
     text-align: center;
     margin: 0 auto;
     }
@@ -61,8 +68,31 @@ article.dica1{
     background: #F5CD79;
     padding: 20px;
     margin: 0 auto;
+    font-size: 12;
+}
+section.dicas{
+    font-size: 12;
+}
+nav.dica1-nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
 }
 
+nav.dica1-nav li{
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+}
+nav.dica1-nav li a{
+    text-decoration: none;
+    color: #000000;
+
+} 
+
+/*
 article.dica2{
     background: #F5CD79;
     padding: 20px;
