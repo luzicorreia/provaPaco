@@ -1,5 +1,4 @@
-/*body, ul, li, h1, h2, a{}*/
-  body{
+body, ul, li{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -14,46 +13,46 @@ header{
     text-align: center;
     padding: 60px 0;
     width: 100%;
-/*  position: fixed;
-    top: 0;
-    left: 0; 
+/* position: sticky;*/
+/* top: 0; */
+/*    left: 0; 
     z-index: 1;
 /*este comando fixa o header em segundo plano para 'rodar' o restante da aplicaçao 
  */
-
 }
 
-nav{
+nav.main-nav{
     background-color: #F19066;
     padding: 20px;
     position: sticky;
-    top: 157px;
+    top: -08px;
     }
 
-nav ul{
+nav.main-nav ul{
     white-space: nowrap;
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
 }
 
-nav li{
+nav.main-nav li{
     width: 30%;
     display: inline-block;
     font-size: 30px;
     text-decoration: underline;
-
+     
 }
 nav li a{
     text-decoration: none;
     color: #000000;
-
+   
 } 
 section.intro{
     background: #ECECEC;
     padding: 50px 25px;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px;
+    border-radius: 20px;
     }
 
 section.intro h2{
@@ -64,53 +63,31 @@ section.intro p{
     font-size: 12px;
 }
 
-article.dica1{
-    background: #F5CD79;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: 12;
-}
 section.dicas{
-    font-size: 12;
-}
-nav.dica1-nav ul{
     white-space: nowrap;
-    max-width: 1200px;
-    text-align: center;
-    margin: 0 auto;
-    text-decoration: underline;
+    margin: 20px;
+    padding: 10px;
+
 }
 
-nav.dica1-nav li{
-    width: 30%;
-    display: inline-block;
-    font-size: 30px;
-}
-nav.dica1-nav li a{
-    text-decoration: none;
-    color: #000000;
-
-} 
-
-/*
-article.dica2{
-    background: #F5CD79;
-    padding: 20px;
-    margin: 0 auto;
-}
-article.dica3{
-    background: #F5CD79;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-article h2{
-        font-size: 20px;
-}
-
-article p{
+section.dicas li{
+    list-style: none;
     font-size: 12px;
-}   
+    padding: 5px;
+}
+
+section.dicas article{
+    background: #F5CD79;
+    border-radius: 20px;
+    padding: 10px;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+section.dicas article h2{
+    text-align: center;
+}
 
 footer{
     background-color: #596275;
