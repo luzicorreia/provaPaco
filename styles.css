@@ -35,11 +35,14 @@ nav.main-nav ul{
     margin: 0 auto;
 }
 
+nav.main-nav li a.home, a.contatos, a.servicos{
+    text-decoration: underline;
+    color: #303952;
+}
 nav.main-nav li{
     width: 30%;
     display: inline-block;
     font-size: 30px;
-    text-decoration: underline;
      
 }
 nav li a{
