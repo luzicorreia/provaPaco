@@ -92,6 +92,12 @@ section.dicas article h2{
     text-align: center;
 }
 
+section.tipo-servicos li img{
+   text-align: center;
+   width: 354px;
+   height: 218px; 
+}
+
 footer{
     background-color: #596275;
     padding: 5px;
