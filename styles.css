@@ -95,8 +95,9 @@ section.dicas article h2{
 section.tipo-servicos li img{
    text-align: center;
    border-radius: 20px;
-   width: 354px;
-   height: 218px; 
+   width: 350px;
+   height: 200px; 
+   box-shadow: 0px 4px 4px #00000040;
 }
 
 section.tipo-servicos li span{
@@ -104,7 +105,14 @@ section.tipo-servicos li span{
     height: 218px; 
  }
  
-
+section.tipo-servicos li{
+    padding: 5px;
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
 
 footer{
     background-color: #596275;
