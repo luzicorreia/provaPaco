@@ -114,6 +114,13 @@ section.tipo-servicos li{
     margin: 20px;
 }
 
+/*section.contatos article.contatos li{
+    width: 20%;
+}*/
+section.contatos article.email li{
+    text-align: center;
+}
+
 footer{
     background-color: #596275;
     padding: 5px;
