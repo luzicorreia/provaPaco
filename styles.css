@@ -114,13 +114,66 @@ section.tipo-servicos li{
     margin: 20px;
 }
 
-/*section.contatos article.contatos li{
-    width: 20%;
-}*/
-section.contatos article.email li{
+section.contatos{
+   width: 25%;
+}
+
+section.contatos article img{
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+section.contatos article span{
+ /*   display: inline-block; 
+    margin-top: 10px ; */
+    position: relative;
+ /*   left: 20px; */
+    top: -10px;
+    font-size: 12px;
+}
+
+section.emails{
+    width: 100%;
+    text-align: center;
+    border: 0px;
+}
+
+section.emails article.email form input[type=email]{
+    background: #85818180;
+    width: 258px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 20px;
+}
+section.emails article.email form input[type=submit]{
+    background: #596275;
+    width: 120px;
+    height: 30px;  
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 20px;
+    font-size: 16px;
     text-align: center;
 }
 
+section.redes{
+    width: 25%;
+    margin-left: auto;
+}
+
+section.redes article img{
+    width: 30px;
+    height: 30px; 
+}
+
+section.redes article span{
+   position: relative;
+   bottom: 10px;
+   font-size: 12px;
+}
 footer{
     background-color: #596275;
     padding: 5px;
